@@ -14,3 +14,20 @@ body {
     font-family: 'Monserrat', sans-serif;
     min-height: 100%;
 }
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    padding: 1.4rem 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8rem;    
+}
+
+.container {
+    background-color: #F3F3F3;
+    margin: 0 auto;
+    max-width: 1200px;
+}
