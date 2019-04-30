@@ -31,3 +31,19 @@ h2 {
     margin: 0 auto;
     max-width: 1200px;
 }
+
+.entries {
+    border: 2px solid blue;
+    box-sizing: border-box;
+    max-height: 2500px;     /* Alto obligatorio */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.entry {
+    width: calc( 33.3% - 1.2rem ); /* Ancho de cada entrada obligatorio */
+}
+.entry .outstanding-image {
+    max-width: 100%;                /* Imagen responsiva obligatorio */
+}
